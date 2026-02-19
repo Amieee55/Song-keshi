@@ -22,6 +22,9 @@ h1, h2, h4{
   border: 0 100% 0 100%;
   padding: 50px;
 }
+pre{
+  line-height: 2;
+}
 img{
   width: 300px;
   height: 300px;
@@ -50,17 +53,31 @@ section{
 }
 figcaption{
   text-align: center;
+  color: #6f685a;
+  padding-top: 10px;
 }
 #about{
-  margin: 7rem;
+  margin: 5rem;
+  line-height: 2;
+  font-size: large;
+}
+h1{
+  font-size: 2.5rem;
+}
+h4{
+  font-size: 1.2rem;
+  font-weight: bolder;
 }
 #about em{
   color: #6f685a;
 }
 footer{
+  border: solid 2px #8a8374;
+  border-radius: 5px;
+  font-size: 11px;
   text-align: center;
   padding: 10px;
-  margin: 2rem 0 2rem 0;
+  margin: 2rem 0 0 0;
   background-color: #1f1e17;
   color: #f8f7f3;
 }
