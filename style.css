@@ -74,6 +74,7 @@ figcaption{
 }
 footer{
   border: solid 2px #8a8374;
+  justify-content: center;
   border-radius: 5px;
   font-size: 11px;
   text-align: center;
