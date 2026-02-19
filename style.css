@@ -1,28 +1,66 @@
 body {
-  background-color: #1f1b13;
-  color: #e6e6e6;
+  background-color: #dad4c2;
+  color: #1f1e17;
   font-family: Didact Gothic;
-  padding: 50px;
+  padding: 20px;
+  margin: 0;
+}
+#audio{
   text-align: center;
 }
-
-h1,
-h2,
-h4 {
+h1, h2, h4{
   font-family: Yuji Syuku;
   text-align: center;
 }
-img {
-  width: 50rem;
+#lyrics{
+  background-image: url(keshi-void.jpg);
+  color: #f8f7f3;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: left 200px top 10px ;
+  border: 0 100% 0 100%;
+  padding: 50px;
 }
-#lyrics {
-  background-color: black;
+img{
+  width: 300px;
+  height: 300px;
+  border-radius: 70%;
+  object-fit: cover;
+  display: block;
 }
-#artist {
-  width: 20em;
-  height: 30em;
-  border-radius: 150px 125px 150px 125px;
+#hero{
+  text-align: center;
+  height: 20rem;
 }
-#about {
-  background-color: rgb(99, 96, 92);
+#hero img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+} 
+section{
+  background-color: #1f1e17;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+figcaption{
+  text-align: center;
+}
+#about{
+  margin: 7rem;
+}
+#about em{
+  color: #6f685a;
+}
+footer{
+  text-align: center;
+  padding: 10px;
+  margin: 2rem 0 2rem 0;
+  background-color: #1f1e17;
+  color: #f8f7f3;
 }
