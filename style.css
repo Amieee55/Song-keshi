@@ -1,0 +1,28 @@
+body {
+  background-color: #1f1b13;
+  color: #e6e6e6;
+  font-family: Didact Gothic;
+  padding: 50px;
+  text-align: center;
+}
+
+h1,
+h2,
+h4 {
+  font-family: Yuji Syuku;
+  text-align: center;
+}
+img {
+  width: 50rem;
+}
+#lyrics {
+  background-color: black;
+}
+#artist {
+  width: 20em;
+  height: 30em;
+  border-radius: 150px 125px 150px 125px;
+}
+#about {
+  background-color: rgb(99, 96, 92);
+}
